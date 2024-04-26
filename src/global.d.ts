@@ -3,6 +3,11 @@ declare module '*.apng' {
     const src: string
     export default src
 }
+
+declare module '*.json' {
+    const value: string;
+    export default value;
+}
 declare module '*.png' {
     const src: string
     export default src
@@ -69,3 +74,4 @@ declare module '*.fs' {
     const src: string
     export default src
 }
+
