@@ -1,7 +1,6 @@
 import { Server } from "http";
 import * as SocketIO from "socket.io";
-import { PlayerMoveData } from "./types";
-import { Session } from "./intefaces";
+import { PlayerMoveData, Session } from "./types";
 
 
 export default class SocketManager implements SocketManager {

@@ -1,7 +1,7 @@
 
 import { Server } from "http";
 import * as SocketIO from "socket.io";
-import { PlayerMoveData } from "./types";
+import { PlayerMoveData, Session } from "./types";
 
 export interface SocketManager {
   sessions: Session[];
@@ -12,9 +12,4 @@ export interface SocketManager {
   createPendingSession(socket: SocketIO.Socket);
   startGame(session: Session);
   onPlayerMove(socket: SocketIO.Socket, data: PlayerMoveData)
-}
-
-export type Session = {
-  playerSocket: SocketIO.Socket | null;
-  enemySocket: SocketIO.Socket | null;
 }
