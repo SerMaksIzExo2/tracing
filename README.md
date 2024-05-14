@@ -7,7 +7,6 @@ This template has been updated for:
 - [Webpack 5.90.3](https://github.com/webpack/webpack)
 - [TypeScript 5.3.3](https://github.com/microsoft/TypeScript)
 
-![screenshot](screenshot.png)
 
 ### Demo
 
